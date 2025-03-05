@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HostelNode - Complete Hostel Management System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .hero {
+            height: 60vh;
+            background: url('https://source.unsplash.com/1200x600/?hostel,building') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .btn {
+            background-color: #ff5722;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #e64a19;
+        }
+        section {
+            padding: 50px 20px;
+            background-color: white;
+            margin: 20px auto;
+            max-width: 1100px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h2 {
+            font-size: 28px;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            text-align: left;
+            display: inline-block;
+        }
+        ul li {
+            font-size: 18px;
+            margin: 8px 0;
+        }
+        .pricing-card {
+            display: inline-block;
+            width: 30%;
+            margin: 15px;
+            padding: 20px;
+            background: #f1f1f1;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .pricing-card h3 {
+            font-size: 22px;
+            color: #333;
+        }
+        .pricing-card p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .pricing-card {
+                width: 90%;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    HostelNode - Complete Hostel Management System
+</header>
+
+<section class="hero">
+    <div>
+        <h1 style="color: #007bff;">Coming Soon</h1>
+    <br>
+        <h1>Manage Your Entire Hostel with Ease</h1>
+        <p>Track Members, Fees, Rooms, Reports & More - All in One Place!</p>
+        <button class="btn" onclick="scrollToSection('features')">Explore Features</button>
+    </div>
+</section>
+
+<section id="features">
+    <h2>Key Features of My HostelNode</h2>
+    <ul>
+        <li>✅ Member Registration & Profile Management</li>
+        <li>✅ Monthly Fees Tracking & Dues Reminders</li>
+        <li>✅ Room & Bed Allocation System</li>
+        <li>✅ Check-In & Check-Out Management</li>
+        <li>✅ Reports for Revenue, Fees Collection & Occupancy</li>
+        <li>✅ Admin Dashboard with Full Control</li>
+        <li>✅ Secure Data Storage with Backup Options</li>
+    </ul>
+</section>
+ >
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>📞 Call/WhatsApp:</strong> +91 7879884375</p>
+    <p><strong>📧 Email:</strong> ketanmahajan2003@gmil.com</p><br>
+    <button class="btn" onclick="enquireNow()">Enquire Now</button>
+</section>
+
+<footer>
+    ©2025 HostelNode | Developed by Ketan Mahajan | All Rights Reserved
+</footer>
+
+<script>
+    function scrollToSection(id) {
+        document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function enquireNow() {
+        alert('Thank you for your interest! Our sales team will contact you soon.');
+    }
+</script>
+
+</body>
+</html>
